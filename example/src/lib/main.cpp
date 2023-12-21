@@ -3,17 +3,17 @@
 #include <iostream>
 #include <random>
 #include <string>
-#include "time.h"
+#include <unordered_set>
+#include <time.h>
 
 #include "fastwfc/overlapping_wfc.hpp"
 #include "fastwfc/tiling_wfc.hpp"
 #include "fastwfc/utils/array3D.hpp"
 #include "fastwfc/wfc.hpp"
-#include "external/rapidxml.hpp"
+
 #include "image.hpp"
 #include "rapidxml_utils.hpp"
 #include "utils.hpp"
-#include <unordered_set>
 
 using namespace rapidxml;
 using namespace std;

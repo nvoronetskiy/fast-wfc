@@ -3,8 +3,8 @@
 
 #define STB_IMAGE_IMPLEMENTATION
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "external/stb_image.h"
-#include "external/stb_image_write.h"
+#include <stb_image.h>
+#include <stb_image_write.h>
 
 #include "fastwfc/utils/array2D.hpp"
 #include "color.hpp"
